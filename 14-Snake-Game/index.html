@@ -1,98 +1,22 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html>
+<html lang="ar">
 <head>
-    <meta charset="utf-8" />
-    <title>Talha - Snake Game with Chart</title>
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-        background: #f0f0f0;
-        direction: rtl;
-      }
-      .wrapper {
-        max-width: 600px;
-        margin: 0 auto;
-        background: #fff;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px #ccc;
-      }
-      .game-details {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 10px;
-        font-weight: bold;
-        font-size: 18px;
-      }
-      .play-board {
-        display: grid;
-        grid-template-columns: repeat(30, 20px);
-        grid-template-rows: repeat(30, 20px);
-        gap: 1px;
-        background: #111;
-        border-radius: 5px;
-      }
-      .food {
-        background-color: red;
-        border-radius: 50%;
-      }
-      .head {
-        background-color: greenyellow;
-        border-radius: 3px;
-      }
-      .controls {
-        margin-top: 10px;
-        text-align: center;
-      }
-      .controls i {
-        cursor: pointer;
-        font-size: 25px;
-        margin: 0 10px;
-        color: #555;
-        user-select: none;
-      }
-      .controls i:hover {
-        color: green;
-      }
-      #chartContainer {
-        margin-top: 40px;
-        background: white;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px #aaa;
-      }
-      canvas {
-        max-width: 100%;
-      }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>لعبة Snake - ذكاء اصطناعي</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-
-<div class="wrapper">
+  <div class="wrapper">
     <div class="game-details">
-        <span class="score">Score: 0</span>
-        <span class="high-score">High Score: 0</span>
+      <span class="score">Score: 0</span>
+      <span class="high-score">High Score: 0</span>
     </div>
     <div class="play-board"></div>
-    <div class="controls">
-        <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
-        <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
-        <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
-        <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
-    </div>
+    <canvas id="gameChart"></canvas>
+  </div>
 
-    <div id="chartContainer">
-        <h3>رسم بياني للنقاط التي حققها اللاعب</h3>
-        <canvas id="gameChart"></canvas>
-    </div>
-</div>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
