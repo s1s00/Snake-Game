@@ -1,26 +1,23 @@
 const playBoard = document.querySelector(".play-board");
 const scoreElement = document.querySelector(".score");
 const highScoreElement = document.querySelector(".high-score");
-const controls = document.querySelectorAll(".controls i");
 const chartCtx = document.getElementById("gameChart").getContext("2d");
 
 let gameOver = false;
 let foodX, foodY;
 let snakeX = 5, snakeY = 5;
 let velocityX = 0, velocityY = 0;
-let snakeBody = [];
+snakeBody = [[snakeX, snakeY]];
+
 let setIntervalId;
 let score = 0;
 
-// مصفوفة لتسجيل البيانات
 let playerLogs = [];
-let gameStartTime = Date.now(); // بداية اللعبة
+let gameStartTime = Date.now();
 
-// استرجاع أعلى نتيجة من التخزين المحلي
 let highScore = localStorage.getItem("high-score") || 0;
 highScoreElement.innerText = `High Score: ${highScore}`;
 
-// تسجيل حدث
 function logEvent(type, data = {}) {
     playerLogs.push({
         type: type,
@@ -39,10 +36,14 @@ const handleGameOver = () => {
     gameOver = true;
 
     const gameEndTime = Date.now();
-    const totalDuration = (gameEndTime - gameStartTime) / 1000; // بالثواني
-    logEvent("game_over", { reason: "collision", totalDuration: totalDuration, finalScore: score });
+    const totalDuration = (gameEndTime - gameStartTime) / 1000;
 
-    // تحميل ملف JSON
+    logEvent("game_over", {
+        reason: "collision",
+        totalDuration: totalDuration,
+        finalScore: score
+    });
+
     const blob = new Blob([JSON.stringify(playerLogs, null, 2)], { type: "application/json" });
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
@@ -51,31 +52,29 @@ const handleGameOver = () => {
 
     alert("Game Over! اضغط OK للعب مرة أخرى...");
 
-    // رسم البيانات في الرسم البياني
-    drawChart();
+    createScoreChart();
 
-    // إعادة ضبط اللعبة بعد 3 ثواني (تعطي وقت للرسم البياني)
     setTimeout(() => {
         location.reload();
     }, 3000);
-}
+};
 
 const changeDirection = e => {
     let directionChanged = false;
 
-    if(e.key === "ArrowUp" && velocityY != 1) {
+    if (e.key === "ArrowUp" && velocityY !== 1) {
         velocityX = 0;
         velocityY = -1;
         directionChanged = "up";
-    } else if(e.key === "ArrowDown" && velocityY != -1) {
+    } else if (e.key === "ArrowDown" && velocityY !== -1) {
         velocityX = 0;
         velocityY = 1;
         directionChanged = "down";
-    } else if(e.key === "ArrowLeft" && velocityX != 1) {
+    } else if (e.key === "ArrowLeft" && velocityX !== 1) {
         velocityX = -1;
         velocityY = 0;
         directionChanged = "left";
-    } else if(e.key === "ArrowRight" && velocityX != -1) {
+    } else if (e.key === "ArrowRight" && velocityX !== -1) {
         velocityX = 1;
         velocityY = 0;
         directionChanged = "right";
@@ -84,87 +83,95 @@ const changeDirection = e => {
     if (directionChanged) {
         logEvent("direction_change", { direction: directionChanged });
     }
-}
-
-controls.forEach(button =>
-    button.addEventListener("click", () =>
-        changeDirection({ key: button.dataset.key }))
-);
+};
 
 const initGame = () => {
-    if(gameOver) return;
+    if (gameOver) return;
 
     let html = `<div class="food" style="grid-area: ${foodY} / ${foodX}"></div>`;
 
-    if(snakeX === foodX && snakeY === foodY) {
+    // أكل الطعام
+    if (snakeX === foodX && snakeY === foodY) {
         updateFoodPosition();
-        snakeBody.push([foodY, foodX]);
+        const newPart = snakeBody.length > 0
+            ? [...snakeBody[snakeBody.length - 1]]
+            : [snakeX, snakeY];
+
+        snakeBody.push(newPart);
         score++;
 
-        // تسجيل حدث أكل الطعام
-        logEvent("food_eaten", { position: { x: foodX, y: foodY }, score: score });
+        logEvent("food_eaten", {
+            position: { x: foodX, y: foodY },
+            score: score
+        });
 
-        highScore = score >= highScore ? score : highScore;
-        localStorage.setItem("high-score", highScore);
+        if (score > highScore) {
+            highScore = score;
+            localStorage.setItem("high-score", highScore);
+        }
+
         scoreElement.innerText = `Score: ${score}`;
         highScoreElement.innerText = `High Score: ${highScore}`;
     }
 
+    // تحريك الرأس
     snakeX += velocityX;
     snakeY += velocityY;
 
+    // تحريك الجسم
     for (let i = snakeBody.length - 1; i > 0; i--) {
-        snakeBody[i] = snakeBody[i - 1];
+        snakeBody[i] = [...snakeBody[i - 1]];
     }
-    snakeBody[0] = [snakeX, snakeY];
+    if (snakeBody.length > 0) {
+        snakeBody[0] = [snakeX, snakeY];
+    }
 
-    // اصطدام بالجدار
-    if(snakeX <= 0 || snakeX > 30 || snakeY <= 0 || snakeY > 30) {
+    // الاصطدام
+    if (snakeX <= 0 || snakeX > 30 || snakeY <= 0 || snakeY > 30) {
         return handleGameOver();
     }
 
-    // اصطدام بنفسه
     for (let i = 1; i < snakeBody.length; i++) {
-        if (snakeBody[0][0] === snakeBody[i][0] && snakeBody[0][1] === snakeBody[i][1]) {
+        if (snakeX === snakeBody[i][0] && snakeY === snakeBody[i][1]) {
             return handleGameOver();
         }
     }
 
-    // رسم الثعبان
+    // رسم الرأس والجسم
     for (let i = 0; i < snakeBody.length; i++) {
-        html += `<div class="head" style="grid-area: ${snakeBody[i][1]} / ${snakeBody[i][0]}"></div>`;
+        const partClass = i === 0 ? "head" : "body";
+        html += `<div class="${partClass}" style="grid-area: ${snakeBody[i][1]} / ${snakeBody[i][0]}"></div>`;
     }
 
     playBoard.innerHTML = html;
-}
+};
 
-// رسم الرسم البياني باستخدام Chart.js
-function drawChart() {
-    // استخدم playerLogs لتجميع النقاط والزمن
-    // نفلتر الأحداث food_eaten للحصول على النقاط وتوقيت أكلها
+function createScoreChart() {
     const foodEvents = playerLogs.filter(event => event.type === "food_eaten");
 
     const scores = foodEvents.map(e => e.score);
-    const times = foodEvents.map((e, i) => `قطعة ${i+1}`);
+    const labels = foodEvents.map((e, i) => `قطعة ${i + 1}`);
 
-    // تدمير الرسم القديم إذا موجود
-    if(window.myChart) {
-        window.myChart.destroy();
+    if (window.scoreChart) {
+        window.scoreChart.destroy();
     }
 
-    window.myChart = new Chart(chartCtx, {
+    window.scoreChart = new Chart(chartCtx, {
         type: 'line',
         data: {
-            labels: times,
+            labels: labels,
             datasets: [{
                 label: 'النقاط',
                 data: scores,
                 borderColor: 'rgb(75, 192, 192)',
                 fill: false,
                 tension: 0.3,
+                pointRadius: 5,
+                pointHoverRadius: 7,
             }]
         },
         options: {
+            responsive: true,
             scales: {
                 y: {
                     beginAtZero: true,
@@ -178,10 +185,8 @@ function drawChart() {
     });
 }
 
-// إعداد أول مرة
 updateFoodPosition();
 setIntervalId = setInterval(initGame, 100);
 document.addEventListener("keyup", changeDirection);
 
-// تسجيل بداية اللعبة
 logEvent("game_start", { startTime: new Date(gameStartTime).toLocaleString() });
