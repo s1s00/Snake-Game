@@ -1,0 +1,3313 @@
+[
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852517502,
+      "startTime": "21\u200f/5\u200f/2025 9:35:17 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852518225,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852518770,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852519338,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852520119,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852520305,
+      "position": {
+        "x": 12,
+        "y": 5
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852520981,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852521391,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852522251,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852522407,
+      "position": {
+        "x": 5,
+        "y": 25
+      },
+      "score": 2
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852522812,
+      "reason": "collision",
+      "totalDuration": 5.31,
+      "finalScore": 2
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852511714,
+      "startTime": "21\u200f/5\u200f/2025 9:35:11 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852512005,
+      "direction": "up"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852512428,
+      "reason": "collision",
+      "totalDuration": 0.714,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852502061,
+      "startTime": "21\u200f/5\u200f/2025 9:35:02 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852502796,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852503231,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852504372,
+      "direction": "down"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852506965,
+      "reason": "collision",
+      "totalDuration": 4.904,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852461171,
+      "startTime": "21\u200f/5\u200f/2025 9:34:21 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852492597,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852495112,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852496111,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852496878,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852497213,
+      "direction": "right"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852497974,
+      "reason": "collision",
+      "totalDuration": 36.803,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852446098,
+      "startTime": "21\u200f/5\u200f/2025 9:34:06 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852446427,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852446898,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852449100,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852450990,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852451002,
+      "position": {
+        "x": 1,
+        "y": 30
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852453559,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852453778,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852453803,
+      "position": {
+        "x": 9,
+        "y": 23
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852454654,
+      "direction": "down"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852454707,
+      "reason": "collision",
+      "totalDuration": 8.609,
+      "finalScore": 2
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852436785,
+      "startTime": "21\u200f/5\u200f/2025 9:33:56 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852440928,
+      "direction": "up"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852441386,
+      "reason": "collision",
+      "totalDuration": 4.602,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852406008,
+      "startTime": "21\u200f/5\u200f/2025 9:33:26 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852410125,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852410486,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852411515,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852413212,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852414278,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852414629,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852415634,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852416013,
+      "position": {
+        "x": 1,
+        "y": 8
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852417107,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852418315,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852419616,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852419802,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852420614,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852420978,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852421311,
+      "position": {
+        "x": 17,
+        "y": 4
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852421888,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852423467,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852423725,
+      "position": {
+        "x": 29,
+        "y": 11
+      },
+      "score": 3
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852424492,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852425701,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852425812,
+      "position": {
+        "x": 1,
+        "y": 12
+      },
+      "score": 4
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852426497,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852429110,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852430076,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852430197,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852431222,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852431235,
+      "direction": "left"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852431412,
+      "reason": "collision",
+      "totalDuration": 25.404,
+      "finalScore": 4
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852384591,
+      "startTime": "21\u200f/5\u200f/2025 9:33:04 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852394165,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852395400,
+      "position": {
+        "x": 22,
+        "y": 14
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852395600,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852396337,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852397021,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852397679,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852398116,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852398683,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852398797,
+      "position": {
+        "x": 23,
+        "y": 1
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852399121,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852400670,
+      "direction": "down"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852400806,
+      "reason": "collision",
+      "totalDuration": 16.218,
+      "finalScore": 2
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852375678,
+      "startTime": "21\u200f/5\u200f/2025 9:32:55 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852378893,
+      "direction": "up"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852379384,
+      "reason": "collision",
+      "totalDuration": 3.706,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852340102,
+      "startTime": "21\u200f/5\u200f/2025 9:32:20 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852340745,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852342249,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852342903,
+      "position": {
+        "x": 24,
+        "y": 19
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852343210,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852344202,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852344591,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852346014,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852346466,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852346880,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852347413,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852347968,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852348854,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852349312,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852349915,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852350312,
+      "position": {
+        "x": 18,
+        "y": 25
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852350577,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852351074,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852352160,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852352734,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852353009,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852353640,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852354458,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852354967,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852355757,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852356758,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852357339,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852357958,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852358510,
+      "position": {
+        "x": 21,
+        "y": 10
+      },
+      "score": 3
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852358992,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852360345,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852361189,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852361652,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852362231,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852362709,
+      "position": {
+        "x": 11,
+        "y": 21
+      },
+      "score": 4
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852363757,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852364815,
+      "position": {
+        "x": 23,
+        "y": 8
+      },
+      "score": 5
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852365227,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852366498,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852368219,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852368791,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852369050,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852369485,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852369718,
+      "position": {
+        "x": 27,
+        "y": 20
+      },
+      "score": 6
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852370406,
+      "direction": "right"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852370406,
+      "reason": "collision",
+      "totalDuration": 30.305,
+      "finalScore": 6
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852309308,
+      "startTime": "21\u200f/5\u200f/2025 9:31:49 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852314010,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852315993,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852316323,
+      "position": {
+        "x": 26,
+        "y": 12
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852317115,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852317595,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852317911,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852318422,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852318422,
+      "position": {
+        "x": 14,
+        "y": 19
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852319296,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852320351,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852321069,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852321335,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852321862,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852322111,
+      "position": {
+        "x": 11,
+        "y": 19
+      },
+      "score": 3
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852322805,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852323128,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852324133,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852324622,
+      "position": {
+        "x": 18,
+        "y": 12
+      },
+      "score": 4
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852325162,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852325863,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852326023,
+      "position": {
+        "x": 25,
+        "y": 2
+      },
+      "score": 5
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852327115,
+      "reason": "collision",
+      "totalDuration": 17.809,
+      "finalScore": 5
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852227535,
+      "startTime": "21\u200f/5\u200f/2025 9:30:27 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852227568,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852228459,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852229369,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852229747,
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852230318,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852230924,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852232447,
+      "position": {
+        "x": 5,
+        "y": 26
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852232455,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852233194,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852235096,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852236099,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852236136,
+      "position": {
+        "x": 21,
+        "y": 30
+      },
+      "score": 3
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852236856,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852238471,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852239678,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852239749,
+      "position": {
+        "x": 10,
+        "y": 17
+      },
+      "score": 4
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852240594,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852241751,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852242374,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852242772,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852243386,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852243907,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852244251,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852244807,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852246008,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852246336,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852247338,
+      "position": {
+        "x": 5,
+        "y": 21
+      },
+      "score": 5
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852247483,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852248455,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852249040,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852250441,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852250842,
+      "position": {
+        "x": 9,
+        "y": 24
+      },
+      "score": 6
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852251791,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852252235,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852252700,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852253696,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852253943,
+      "position": {
+        "x": 2,
+        "y": 12
+      },
+      "score": 7
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852255429,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852256106,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852256436,
+      "position": {
+        "x": 16,
+        "y": 27
+      },
+      "score": 8
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852257208,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852258613,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852259335,
+      "position": {
+        "x": 30,
+        "y": 2
+      },
+      "score": 9
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852259392,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852260117,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852262654,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852264780,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852264846,
+      "position": {
+        "x": 4,
+        "y": 22
+      },
+      "score": 10
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852266697,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852269631,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852270271,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852270566,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852271237,
+      "position": {
+        "x": 29,
+        "y": 8
+      },
+      "score": 11
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852271870,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852274414,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852275138,
+      "position": {
+        "x": 16,
+        "y": 10
+      },
+      "score": 12
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852275496,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852276880,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852277672,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852278162,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852278493,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852279194,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852279527,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852279945,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852280285,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852281530,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852281986,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852283189,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852283961,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852284350,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852285000,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852285573,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852286000,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852286591,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852287083,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852287563,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852287951,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852288270,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852288670,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852289283,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852289509,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852290042,
+      "position": {
+        "x": 18,
+        "y": 19
+      },
+      "score": 13
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852290956,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852291369,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852292538,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852293174,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852293498,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852294313,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852294682,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852295441,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852295968,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852296474,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852297079,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852297388,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852298130,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852298654,
+      "direction": "right"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852299436,
+      "reason": "collision",
+      "totalDuration": 71.902,
+      "finalScore": 13
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852220963,
+      "startTime": "21\u200f/5\u200f/2025 9:30:20 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852221596,
+      "direction": "up"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852222073,
+      "reason": "collision",
+      "totalDuration": 1.111,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852202715,
+      "startTime": "21\u200f/5\u200f/2025 9:30:02 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852202741,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852203627,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852203936,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852204192,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852204854,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852205100,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852205724,
+      "position": {
+        "x": 5,
+        "y": 9
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852205737,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852206529,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852207516,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852208705,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852209426,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852209649,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852210330,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852211589,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852211950,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852212922,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852214312,
+      "direction": "left"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852214929,
+      "reason": "collision",
+      "totalDuration": 12.215,
+      "finalScore": 1
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852190765,
+      "startTime": "21\u200f/5\u200f/2025 9:29:50 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852192846,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852194719,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852195571,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852195676,
+      "position": {
+        "x": 28,
+        "y": 13
+      },
+      "score": 1
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852197872,
+      "reason": "collision",
+      "totalDuration": 7.107,
+      "finalScore": 1
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852153980,
+      "startTime": "21\u200f/5\u200f/2025 9:29:13 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852154658,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852155151,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852156715,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852157288,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852157521,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852157880,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852157986,
+      "position": {
+        "x": 7,
+        "y": 9
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852158522,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852158905,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852160776,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852161308,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852161778,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852162012,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852162593,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852162907,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852163204,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852163489,
+      "position": {
+        "x": 6,
+        "y": 18
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852164193,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852165186,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852165988,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852166727,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852167009,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852167834,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852168082,
+      "position": {
+        "x": 10,
+        "y": 25
+      },
+      "score": 3
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852168783,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852169366,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852169993,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852170427,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852170946,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852171341,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852171884,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852172255,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852172707,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852173240,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852173774,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852174223,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852174766,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852175833,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852176287,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852177198,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852178410,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852178751,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852179672,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852180337,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852181312,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852181923,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852183210,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852183987,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852184711,
+      "direction": "right"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852184882,
+      "reason": "collision",
+      "totalDuration": 30.903,
+      "finalScore": 3
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852130669,
+      "startTime": "21\u200f/5\u200f/2025 9:28:50 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852134273,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852136091,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852136965,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852137074,
+      "position": {
+        "x": 20,
+        "y": 11
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852137711,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852138332,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852138893,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852139518,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852139914,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852140230,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852140760,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852142080,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852142381,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852143772,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852143884,
+      "position": {
+        "x": 1,
+        "y": 17
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852144366,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852144790,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852147039,
+      "direction": "left"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852147270,
+      "reason": "collision",
+      "totalDuration": 16.602,
+      "finalScore": 2
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852077804,
+      "startTime": "21\u200f/5\u200f/2025 9:27:57 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852110158,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852110950,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852113093,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852113709,
+      "position": {
+        "x": 9,
+        "y": 16
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852113887,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852114903,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852115316,
+      "position": {
+        "x": 4,
+        "y": 24
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852115743,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852116605,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852117594,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852117606,
+      "position": {
+        "x": 15,
+        "y": 19
+      },
+      "score": 3
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852118320,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852119503,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852119808,
+      "position": {
+        "x": 4,
+        "y": 10
+      },
+      "score": 4
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852120307,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852121232,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852122815,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852123005,
+      "position": {
+        "x": 13,
+        "y": 24
+      },
+      "score": 5
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852123316,
+      "reason": "collision",
+      "totalDuration": 45.513,
+      "finalScore": 5
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852039980,
+      "startTime": "21\u200f/5\u200f/2025 9:27:19 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852040866,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852041402,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852042023,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852042482,
+      "position": {
+        "x": 19,
+        "y": 15
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852043774,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852043836,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852044073,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852045074,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852046076,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852046630,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852047299,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852047652,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852048295,
+      "position": {
+        "x": 28,
+        "y": 21
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852048647,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852049473,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852049900,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852051782,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852052470,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852052582,
+      "position": {
+        "x": 25,
+        "y": 29
+      },
+      "score": 3
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852053820,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852054287,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852055388,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852055646,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852055683,
+      "position": {
+        "x": 9,
+        "y": 15
+      },
+      "score": 4
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852057027,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852058395,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852059023,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852059211,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852059617,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852060246,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852060367,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852060890,
+      "position": {
+        "x": 5,
+        "y": 4
+      },
+      "score": 5
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852061859,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852062397,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852062642,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852062944,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852063850,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852064127,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852064924,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852065193,
+      "position": {
+        "x": 22,
+        "y": 30
+      },
+      "score": 6
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852065735,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852067998,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852069452,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852069644,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852070806,
+      "direction": "down"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852070985,
+      "reason": "collision",
+      "totalDuration": 31.005,
+      "finalScore": 6
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852033789,
+      "startTime": "21\u200f/5\u200f/2025 9:27:13 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852034686,
+      "direction": "up"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852035096,
+      "reason": "collision",
+      "totalDuration": 1.308,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852013030,
+      "startTime": "21\u200f/5\u200f/2025 9:26:53 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852014365,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852014628,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852015403,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852015599,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852016043,
+      "position": {
+        "x": 20,
+        "y": 4
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852016310,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852016879,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852018303,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852018638,
+      "position": {
+        "x": 16,
+        "y": 30
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852018734,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852019324,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852021949,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852022238,
+      "position": {
+        "x": 17,
+        "y": 13
+      },
+      "score": 3
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852022877,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852024500,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852025080,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747852025235,
+      "position": {
+        "x": 30,
+        "y": 9
+      },
+      "score": 4
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852025700,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852026883,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852027778,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852027787,
+      "direction": "up"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852027836,
+      "reason": "collision",
+      "totalDuration": 14.806,
+      "finalScore": 4
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747852006586,
+      "startTime": "21\u200f/5\u200f/2025 9:26:46 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747852007733,
+      "direction": "left"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852008192,
+      "reason": "collision",
+      "totalDuration": 1.607,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747851998247,
+      "startTime": "21\u200f/5\u200f/2025 9:26:38 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851999846,
+      "direction": "up"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747852000253,
+      "reason": "collision",
+      "totalDuration": 2.006,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747851981213,
+      "startTime": "21\u200f/5\u200f/2025 9:26:21 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851982257,
+      "direction": "up"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747851982723,
+      "reason": "collision",
+      "totalDuration": 1.513,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747851971280,
+      "startTime": "21\u200f/5\u200f/2025 9:26:11 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851971848,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851972606,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851974916,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851976059,
+      "direction": "down"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747851976285,
+      "reason": "collision",
+      "totalDuration": 5.006,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747851944216,
+      "startTime": "21\u200f/5\u200f/2025 9:25:44 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851945080,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851946332,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851947013,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851947292,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851947561,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851947562,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851947997,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851948424,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851948935,
+      "direction": "left"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851949228,
+      "position": {
+        "x": 15,
+        "y": 21
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851949433,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851950075,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851950441,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851952122,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851952894,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851952904,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851953712,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851954007,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851954204,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851954908,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851955235,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851955869,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851956229,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851957951,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851958504,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851960060,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851960530,
+      "position": {
+        "x": 4,
+        "y": 29
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851961069,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851961595,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851963197,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851964421,
+      "direction": "left"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747851964817,
+      "reason": "collision",
+      "totalDuration": 20.602,
+      "finalScore": 2
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747851930481,
+      "startTime": "21\u200f/5\u200f/2025 9:25:30 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851930633,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851931495,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851932657,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851934181,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851935002,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851936314,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851937186,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851938484,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851939087,
+      "direction": "down"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747851939287,
+      "reason": "collision",
+      "totalDuration": 8.807,
+      "finalScore": 0
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747851741833,
+      "startTime": "21\u200f/5\u200f/2025 9:22:21 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851911504,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851913524,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851914407,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851914814,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851915089,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851915305,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851915934,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851915985,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851916442,
+      "position": {
+        "x": 23,
+        "y": 29
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851917071,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851917389,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851918981,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851919300,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851920074,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851920771,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851921172,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851922318,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851922885,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851924337,
+      "position": {
+        "x": 20,
+        "y": 13
+      },
+      "score": 2
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747851924446,
+      "reason": "collision",
+      "totalDuration": 182.613,
+      "finalScore": 2
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747851709350,
+      "startTime": "21\u200f/5\u200f/2025 9:21:49 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851715122,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851716143,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851717666,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851718067,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851718517,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851718761,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851719160,
+      "position": {
+        "x": 21,
+        "y": 1
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851719487,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851720068,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851722368,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851722556,
+      "position": {
+        "x": 25,
+        "y": 24
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851723097,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851725320,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851725896,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851726163,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851726652,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851726865,
+      "position": {
+        "x": 15,
+        "y": 6
+      },
+      "score": 3
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851728409,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851729386,
+      "direction": "up"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851729657,
+      "position": {
+        "x": 26,
+        "y": 20
+      },
+      "score": 4
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747851730152,
+      "reason": "collision",
+      "totalDuration": 20.803,
+      "finalScore": 4
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747851684285,
+      "startTime": "21\u200f/5\u200f/2025 9:21:24 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851686752,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851688100,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851688895,
+      "position": {
+        "x": 7,
+        "y": 17
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851689110,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851690294,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851690390,
+      "position": {
+        "x": 4,
+        "y": 21
+      },
+      "score": 2
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851690618,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851691876,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851692186,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851693593,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851694486,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851694862,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851695674,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851696033,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851697049,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851697431,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851698428,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851699014,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851699588,
+      "direction": "left"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851700023,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851700480,
+      "direction": "right"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851700696,
+      "position": {
+        "x": 15,
+        "y": 28
+      },
+      "score": 3
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851700750,
+      "direction": "up"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851701477,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851701707,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851702610,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851703270,
+      "direction": "down"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747851703988,
+      "reason": "collision",
+      "totalDuration": 19.704,
+      "finalScore": 3
+    }
+  ],
+  [
+    {
+      "type": "game_start",
+      "timestamp": 1747851554867,
+      "startTime": "21\u200f/5\u200f/2025 9:19:14 \u0645"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851557316,
+      "direction": "down"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851557690,
+      "direction": "right"
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851558512,
+      "direction": "down"
+    },
+    {
+      "type": "food_eaten",
+      "timestamp": 1747851558971,
+      "position": {
+        "x": 2,
+        "y": 25
+      },
+      "score": 1
+    },
+    {
+      "type": "direction_change",
+      "timestamp": 1747851559823,
+      "direction": "left"
+    },
+    {
+      "type": "game_over",
+      "timestamp": 1747851561061,
+      "reason": "collision",
+      "totalDuration": 6.204,
+      "finalScore": 1
+    }
+  ]
+]
