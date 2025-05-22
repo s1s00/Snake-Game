@@ -1,3313 +1,577 @@
-[
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852517502,
-      "startTime": "21\u200f/5\u200f/2025 9:35:17 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852518225,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852518770,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852519338,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852520119,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852520305,
-      "position": {
-        "x": 12,
-        "y": 5
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852520981,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852521391,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852522251,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852522407,
-      "position": {
-        "x": 5,
-        "y": 25
-      },
-      "score": 2
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852522812,
-      "reason": "collision",
-      "totalDuration": 5.31,
-      "finalScore": 2
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852511714,
-      "startTime": "21\u200f/5\u200f/2025 9:35:11 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852512005,
-      "direction": "up"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852512428,
-      "reason": "collision",
-      "totalDuration": 0.714,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852502061,
-      "startTime": "21\u200f/5\u200f/2025 9:35:02 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852502796,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852503231,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852504372,
-      "direction": "down"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852506965,
-      "reason": "collision",
-      "totalDuration": 4.904,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852461171,
-      "startTime": "21\u200f/5\u200f/2025 9:34:21 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852492597,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852495112,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852496111,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852496878,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852497213,
-      "direction": "right"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852497974,
-      "reason": "collision",
-      "totalDuration": 36.803,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852446098,
-      "startTime": "21\u200f/5\u200f/2025 9:34:06 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852446427,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852446898,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852449100,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852450990,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852451002,
-      "position": {
-        "x": 1,
-        "y": 30
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852453559,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852453778,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852453803,
-      "position": {
-        "x": 9,
-        "y": 23
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852454654,
-      "direction": "down"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852454707,
-      "reason": "collision",
-      "totalDuration": 8.609,
-      "finalScore": 2
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852436785,
-      "startTime": "21\u200f/5\u200f/2025 9:33:56 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852440928,
-      "direction": "up"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852441386,
-      "reason": "collision",
-      "totalDuration": 4.602,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852406008,
-      "startTime": "21\u200f/5\u200f/2025 9:33:26 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852410125,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852410486,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852411515,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852413212,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852414278,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852414629,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852415634,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852416013,
-      "position": {
-        "x": 1,
-        "y": 8
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852417107,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852418315,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852419616,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852419802,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852420614,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852420978,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852421311,
-      "position": {
-        "x": 17,
-        "y": 4
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852421888,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852423467,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852423725,
-      "position": {
-        "x": 29,
-        "y": 11
-      },
-      "score": 3
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852424492,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852425701,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852425812,
-      "position": {
-        "x": 1,
-        "y": 12
-      },
-      "score": 4
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852426497,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852429110,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852430076,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852430197,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852431222,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852431235,
-      "direction": "left"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852431412,
-      "reason": "collision",
-      "totalDuration": 25.404,
-      "finalScore": 4
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852384591,
-      "startTime": "21\u200f/5\u200f/2025 9:33:04 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852394165,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852395400,
-      "position": {
-        "x": 22,
-        "y": 14
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852395600,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852396337,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852397021,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852397679,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852398116,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852398683,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852398797,
-      "position": {
-        "x": 23,
-        "y": 1
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852399121,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852400670,
-      "direction": "down"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852400806,
-      "reason": "collision",
-      "totalDuration": 16.218,
-      "finalScore": 2
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852375678,
-      "startTime": "21\u200f/5\u200f/2025 9:32:55 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852378893,
-      "direction": "up"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852379384,
-      "reason": "collision",
-      "totalDuration": 3.706,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852340102,
-      "startTime": "21\u200f/5\u200f/2025 9:32:20 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852340745,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852342249,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852342903,
-      "position": {
-        "x": 24,
-        "y": 19
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852343210,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852344202,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852344591,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852346014,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852346466,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852346880,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852347413,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852347968,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852348854,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852349312,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852349915,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852350312,
-      "position": {
-        "x": 18,
-        "y": 25
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852350577,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852351074,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852352160,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852352734,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852353009,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852353640,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852354458,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852354967,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852355757,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852356758,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852357339,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852357958,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852358510,
-      "position": {
-        "x": 21,
-        "y": 10
-      },
-      "score": 3
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852358992,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852360345,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852361189,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852361652,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852362231,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852362709,
-      "position": {
-        "x": 11,
-        "y": 21
-      },
-      "score": 4
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852363757,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852364815,
-      "position": {
-        "x": 23,
-        "y": 8
-      },
-      "score": 5
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852365227,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852366498,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852368219,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852368791,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852369050,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852369485,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852369718,
-      "position": {
-        "x": 27,
-        "y": 20
-      },
-      "score": 6
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852370406,
-      "direction": "right"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852370406,
-      "reason": "collision",
-      "totalDuration": 30.305,
-      "finalScore": 6
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852309308,
-      "startTime": "21\u200f/5\u200f/2025 9:31:49 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852314010,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852315993,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852316323,
-      "position": {
-        "x": 26,
-        "y": 12
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852317115,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852317595,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852317911,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852318422,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852318422,
-      "position": {
-        "x": 14,
-        "y": 19
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852319296,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852320351,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852321069,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852321335,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852321862,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852322111,
-      "position": {
-        "x": 11,
-        "y": 19
-      },
-      "score": 3
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852322805,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852323128,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852324133,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852324622,
-      "position": {
-        "x": 18,
-        "y": 12
-      },
-      "score": 4
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852325162,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852325863,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852326023,
-      "position": {
-        "x": 25,
-        "y": 2
-      },
-      "score": 5
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852327115,
-      "reason": "collision",
-      "totalDuration": 17.809,
-      "finalScore": 5
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852227535,
-      "startTime": "21\u200f/5\u200f/2025 9:30:27 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852227568,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852228459,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852229369,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852229747,
-      "position": {
-        "x": 8,
-        "y": 8
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852230318,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852230924,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852232447,
-      "position": {
-        "x": 5,
-        "y": 26
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852232455,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852233194,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852235096,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852236099,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852236136,
-      "position": {
-        "x": 21,
-        "y": 30
-      },
-      "score": 3
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852236856,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852238471,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852239678,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852239749,
-      "position": {
-        "x": 10,
-        "y": 17
-      },
-      "score": 4
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852240594,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852241751,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852242374,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852242772,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852243386,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852243907,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852244251,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852244807,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852246008,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852246336,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852247338,
-      "position": {
-        "x": 5,
-        "y": 21
-      },
-      "score": 5
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852247483,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852248455,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852249040,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852250441,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852250842,
-      "position": {
-        "x": 9,
-        "y": 24
-      },
-      "score": 6
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852251791,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852252235,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852252700,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852253696,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852253943,
-      "position": {
-        "x": 2,
-        "y": 12
-      },
-      "score": 7
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852255429,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852256106,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852256436,
-      "position": {
-        "x": 16,
-        "y": 27
-      },
-      "score": 8
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852257208,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852258613,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852259335,
-      "position": {
-        "x": 30,
-        "y": 2
-      },
-      "score": 9
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852259392,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852260117,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852262654,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852264780,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852264846,
-      "position": {
-        "x": 4,
-        "y": 22
-      },
-      "score": 10
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852266697,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852269631,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852270271,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852270566,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852271237,
-      "position": {
-        "x": 29,
-        "y": 8
-      },
-      "score": 11
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852271870,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852274414,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852275138,
-      "position": {
-        "x": 16,
-        "y": 10
-      },
-      "score": 12
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852275496,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852276880,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852277672,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852278162,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852278493,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852279194,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852279527,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852279945,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852280285,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852281530,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852281986,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852283189,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852283961,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852284350,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852285000,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852285573,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852286000,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852286591,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852287083,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852287563,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852287951,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852288270,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852288670,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852289283,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852289509,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852290042,
-      "position": {
-        "x": 18,
-        "y": 19
-      },
-      "score": 13
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852290956,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852291369,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852292538,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852293174,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852293498,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852294313,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852294682,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852295441,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852295968,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852296474,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852297079,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852297388,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852298130,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852298654,
-      "direction": "right"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852299436,
-      "reason": "collision",
-      "totalDuration": 71.902,
-      "finalScore": 13
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852220963,
-      "startTime": "21\u200f/5\u200f/2025 9:30:20 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852221596,
-      "direction": "up"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852222073,
-      "reason": "collision",
-      "totalDuration": 1.111,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852202715,
-      "startTime": "21\u200f/5\u200f/2025 9:30:02 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852202741,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852203627,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852203936,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852204192,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852204854,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852205100,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852205724,
-      "position": {
-        "x": 5,
-        "y": 9
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852205737,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852206529,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852207516,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852208705,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852209426,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852209649,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852210330,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852211589,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852211950,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852212922,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852214312,
-      "direction": "left"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852214929,
-      "reason": "collision",
-      "totalDuration": 12.215,
-      "finalScore": 1
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852190765,
-      "startTime": "21\u200f/5\u200f/2025 9:29:50 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852192846,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852194719,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852195571,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852195676,
-      "position": {
-        "x": 28,
-        "y": 13
-      },
-      "score": 1
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852197872,
-      "reason": "collision",
-      "totalDuration": 7.107,
-      "finalScore": 1
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852153980,
-      "startTime": "21\u200f/5\u200f/2025 9:29:13 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852154658,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852155151,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852156715,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852157288,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852157521,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852157880,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852157986,
-      "position": {
-        "x": 7,
-        "y": 9
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852158522,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852158905,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852160776,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852161308,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852161778,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852162012,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852162593,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852162907,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852163204,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852163489,
-      "position": {
-        "x": 6,
-        "y": 18
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852164193,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852165186,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852165988,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852166727,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852167009,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852167834,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852168082,
-      "position": {
-        "x": 10,
-        "y": 25
-      },
-      "score": 3
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852168783,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852169366,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852169993,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852170427,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852170946,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852171341,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852171884,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852172255,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852172707,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852173240,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852173774,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852174223,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852174766,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852175833,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852176287,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852177198,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852178410,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852178751,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852179672,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852180337,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852181312,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852181923,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852183210,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852183987,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852184711,
-      "direction": "right"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852184882,
-      "reason": "collision",
-      "totalDuration": 30.903,
-      "finalScore": 3
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852130669,
-      "startTime": "21\u200f/5\u200f/2025 9:28:50 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852134273,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852136091,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852136965,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852137074,
-      "position": {
-        "x": 20,
-        "y": 11
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852137711,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852138332,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852138893,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852139518,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852139914,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852140230,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852140760,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852142080,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852142381,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852143772,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852143884,
-      "position": {
-        "x": 1,
-        "y": 17
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852144366,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852144790,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852147039,
-      "direction": "left"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852147270,
-      "reason": "collision",
-      "totalDuration": 16.602,
-      "finalScore": 2
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852077804,
-      "startTime": "21\u200f/5\u200f/2025 9:27:57 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852110158,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852110950,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852113093,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852113709,
-      "position": {
-        "x": 9,
-        "y": 16
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852113887,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852114903,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852115316,
-      "position": {
-        "x": 4,
-        "y": 24
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852115743,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852116605,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852117594,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852117606,
-      "position": {
-        "x": 15,
-        "y": 19
-      },
-      "score": 3
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852118320,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852119503,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852119808,
-      "position": {
-        "x": 4,
-        "y": 10
-      },
-      "score": 4
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852120307,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852121232,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852122815,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852123005,
-      "position": {
-        "x": 13,
-        "y": 24
-      },
-      "score": 5
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852123316,
-      "reason": "collision",
-      "totalDuration": 45.513,
-      "finalScore": 5
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852039980,
-      "startTime": "21\u200f/5\u200f/2025 9:27:19 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852040866,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852041402,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852042023,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852042482,
-      "position": {
-        "x": 19,
-        "y": 15
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852043774,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852043836,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852044073,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852045074,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852046076,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852046630,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852047299,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852047652,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852048295,
-      "position": {
-        "x": 28,
-        "y": 21
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852048647,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852049473,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852049900,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852051782,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852052470,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852052582,
-      "position": {
-        "x": 25,
-        "y": 29
-      },
-      "score": 3
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852053820,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852054287,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852055388,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852055646,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852055683,
-      "position": {
-        "x": 9,
-        "y": 15
-      },
-      "score": 4
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852057027,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852058395,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852059023,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852059211,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852059617,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852060246,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852060367,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852060890,
-      "position": {
-        "x": 5,
-        "y": 4
-      },
-      "score": 5
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852061859,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852062397,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852062642,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852062944,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852063850,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852064127,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852064924,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852065193,
-      "position": {
-        "x": 22,
-        "y": 30
-      },
-      "score": 6
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852065735,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852067998,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852069452,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852069644,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852070806,
-      "direction": "down"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852070985,
-      "reason": "collision",
-      "totalDuration": 31.005,
-      "finalScore": 6
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852033789,
-      "startTime": "21\u200f/5\u200f/2025 9:27:13 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852034686,
-      "direction": "up"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852035096,
-      "reason": "collision",
-      "totalDuration": 1.308,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852013030,
-      "startTime": "21\u200f/5\u200f/2025 9:26:53 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852014365,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852014628,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852015403,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852015599,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852016043,
-      "position": {
-        "x": 20,
-        "y": 4
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852016310,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852016879,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852018303,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852018638,
-      "position": {
-        "x": 16,
-        "y": 30
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852018734,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852019324,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852021949,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852022238,
-      "position": {
-        "x": 17,
-        "y": 13
-      },
-      "score": 3
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852022877,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852024500,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852025080,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747852025235,
-      "position": {
-        "x": 30,
-        "y": 9
-      },
-      "score": 4
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852025700,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852026883,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852027778,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852027787,
-      "direction": "up"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852027836,
-      "reason": "collision",
-      "totalDuration": 14.806,
-      "finalScore": 4
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747852006586,
-      "startTime": "21\u200f/5\u200f/2025 9:26:46 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747852007733,
-      "direction": "left"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852008192,
-      "reason": "collision",
-      "totalDuration": 1.607,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747851998247,
-      "startTime": "21\u200f/5\u200f/2025 9:26:38 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851999846,
-      "direction": "up"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747852000253,
-      "reason": "collision",
-      "totalDuration": 2.006,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747851981213,
-      "startTime": "21\u200f/5\u200f/2025 9:26:21 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851982257,
-      "direction": "up"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747851982723,
-      "reason": "collision",
-      "totalDuration": 1.513,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747851971280,
-      "startTime": "21\u200f/5\u200f/2025 9:26:11 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851971848,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851972606,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851974916,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851976059,
-      "direction": "down"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747851976285,
-      "reason": "collision",
-      "totalDuration": 5.006,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747851944216,
-      "startTime": "21\u200f/5\u200f/2025 9:25:44 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851945080,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851946332,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851947013,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851947292,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851947561,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851947562,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851947997,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851948424,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851948935,
-      "direction": "left"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851949228,
-      "position": {
-        "x": 15,
-        "y": 21
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851949433,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851950075,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851950441,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851952122,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851952894,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851952904,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851953712,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851954007,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851954204,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851954908,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851955235,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851955869,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851956229,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851957951,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851958504,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851960060,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851960530,
-      "position": {
-        "x": 4,
-        "y": 29
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851961069,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851961595,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851963197,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851964421,
-      "direction": "left"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747851964817,
-      "reason": "collision",
-      "totalDuration": 20.602,
-      "finalScore": 2
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747851930481,
-      "startTime": "21\u200f/5\u200f/2025 9:25:30 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851930633,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851931495,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851932657,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851934181,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851935002,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851936314,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851937186,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851938484,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851939087,
-      "direction": "down"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747851939287,
-      "reason": "collision",
-      "totalDuration": 8.807,
-      "finalScore": 0
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747851741833,
-      "startTime": "21\u200f/5\u200f/2025 9:22:21 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851911504,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851913524,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851914407,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851914814,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851915089,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851915305,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851915934,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851915985,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851916442,
-      "position": {
-        "x": 23,
-        "y": 29
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851917071,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851917389,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851918981,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851919300,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851920074,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851920771,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851921172,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851922318,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851922885,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851924337,
-      "position": {
-        "x": 20,
-        "y": 13
-      },
-      "score": 2
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747851924446,
-      "reason": "collision",
-      "totalDuration": 182.613,
-      "finalScore": 2
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747851709350,
-      "startTime": "21\u200f/5\u200f/2025 9:21:49 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851715122,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851716143,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851717666,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851718067,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851718517,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851718761,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851719160,
-      "position": {
-        "x": 21,
-        "y": 1
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851719487,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851720068,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851722368,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851722556,
-      "position": {
-        "x": 25,
-        "y": 24
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851723097,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851725320,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851725896,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851726163,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851726652,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851726865,
-      "position": {
-        "x": 15,
-        "y": 6
-      },
-      "score": 3
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851728409,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851729386,
-      "direction": "up"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851729657,
-      "position": {
-        "x": 26,
-        "y": 20
-      },
-      "score": 4
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747851730152,
-      "reason": "collision",
-      "totalDuration": 20.803,
-      "finalScore": 4
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747851684285,
-      "startTime": "21\u200f/5\u200f/2025 9:21:24 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851686752,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851688100,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851688895,
-      "position": {
-        "x": 7,
-        "y": 17
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851689110,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851690294,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851690390,
-      "position": {
-        "x": 4,
-        "y": 21
-      },
-      "score": 2
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851690618,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851691876,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851692186,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851693593,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851694486,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851694862,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851695674,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851696033,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851697049,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851697431,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851698428,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851699014,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851699588,
-      "direction": "left"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851700023,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851700480,
-      "direction": "right"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851700696,
-      "position": {
-        "x": 15,
-        "y": 28
-      },
-      "score": 3
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851700750,
-      "direction": "up"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851701477,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851701707,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851702610,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851703270,
-      "direction": "down"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747851703988,
-      "reason": "collision",
-      "totalDuration": 19.704,
-      "finalScore": 3
-    }
-  ],
-  [
-    {
-      "type": "game_start",
-      "timestamp": 1747851554867,
-      "startTime": "21\u200f/5\u200f/2025 9:19:14 \u0645"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851557316,
-      "direction": "down"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851557690,
-      "direction": "right"
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851558512,
-      "direction": "down"
-    },
-    {
-      "type": "food_eaten",
-      "timestamp": 1747851558971,
-      "position": {
-        "x": 2,
-        "y": 25
-      },
-      "score": 1
-    },
-    {
-      "type": "direction_change",
-      "timestamp": 1747851559823,
-      "direction": "left"
-    },
-    {
-      "type": "game_over",
-      "timestamp": 1747851561061,
-      "reason": "collision",
-      "totalDuration": 6.204,
-      "finalScore": 1
-    }
-  ]
-]
+type,timestamp,startTime,direction,position,score,reason,totalDuration,finalScore,SourceFile
+game_start,2025-05-21 18:35:17.502,21‏/5‏/2025 9:35:17 م,,,,,,,player_data (30) (1).json
+direction_change,2025-05-21 18:35:18.225,,down,,,,,,player_data (30) (1).json
+direction_change,2025-05-21 18:35:18.770,,right,,,,,,player_data (30) (1).json
+direction_change,2025-05-21 18:35:19.338,,up,,,,,,player_data (30) (1).json
+direction_change,2025-05-21 18:35:20.119,,left,,,,,,player_data (30) (1).json
+food_eaten,2025-05-21 18:35:20.305,,,"{'x': 12, 'y': 5}",1.0,,,,player_data (30) (1).json
+direction_change,2025-05-21 18:35:20.981,,down,,,,,,player_data (30) (1).json
+direction_change,2025-05-21 18:35:21.391,,right,,,,,,player_data (30) (1).json
+direction_change,2025-05-21 18:35:22.251,,up,,,,,,player_data (30) (1).json
+food_eaten,2025-05-21 18:35:22.407,,,"{'x': 5, 'y': 25}",2.0,,,,player_data (30) (1).json
+game_over,2025-05-21 18:35:22.812,,,,,collision,5.31,2.0,player_data (30) (1).json
+game_start,2025-05-21 18:35:11.714,21‏/5‏/2025 9:35:11 م,,,,,,,player_data (29) (1).json
+direction_change,2025-05-21 18:35:12.005,,up,,,,,,player_data (29) (1).json
+game_over,2025-05-21 18:35:12.428,,,,,collision,0.714,0.0,player_data (29) (1).json
+game_start,2025-05-21 18:35:02.061,21‏/5‏/2025 9:35:02 م,,,,,,,player_data (28) (1).json
+direction_change,2025-05-21 18:35:02.796,,right,,,,,,player_data (28) (1).json
+direction_change,2025-05-21 18:35:03.231,,right,,,,,,player_data (28) (1).json
+direction_change,2025-05-21 18:35:04.372,,down,,,,,,player_data (28) (1).json
+game_over,2025-05-21 18:35:06.965,,,,,collision,4.904,0.0,player_data (28) (1).json
+game_start,2025-05-21 18:34:21.171,21‏/5‏/2025 9:34:21 م,,,,,,,player_data (27) (1).json
+direction_change,2025-05-21 18:34:52.597,,right,,,,,,player_data (27) (1).json
+direction_change,2025-05-21 18:34:55.112,,down,,,,,,player_data (27) (1).json
+direction_change,2025-05-21 18:34:56.111,,left,,,,,,player_data (27) (1).json
+direction_change,2025-05-21 18:34:56.878,,down,,,,,,player_data (27) (1).json
+direction_change,2025-05-21 18:34:57.213,,right,,,,,,player_data (27) (1).json
+game_over,2025-05-21 18:34:57.974,,,,,collision,36.803,0.0,player_data (27) (1).json
+game_start,2025-05-21 18:34:06.098,21‏/5‏/2025 9:34:06 م,,,,,,,player_data (26) (1).json
+direction_change,2025-05-21 18:34:06.427,,down,,,,,,player_data (26) (1).json
+direction_change,2025-05-21 18:34:06.898,,right,,,,,,player_data (26) (1).json
+direction_change,2025-05-21 18:34:09.100,,down,,,,,,player_data (26) (1).json
+direction_change,2025-05-21 18:34:10.990,,left,,,,,,player_data (26) (1).json
+food_eaten,2025-05-21 18:34:11.002,,,"{'x': 1, 'y': 30}",1.0,,,,player_data (26) (1).json
+direction_change,2025-05-21 18:34:13.559,,down,,,,,,player_data (26) (1).json
+direction_change,2025-05-21 18:34:13.778,,right,,,,,,player_data (26) (1).json
+food_eaten,2025-05-21 18:34:13.803,,,"{'x': 9, 'y': 23}",2.0,,,,player_data (26) (1).json
+direction_change,2025-05-21 18:34:14.654,,down,,,,,,player_data (26) (1).json
+game_over,2025-05-21 18:34:14.707,,,,,collision,8.609,2.0,player_data (26) (1).json
+game_start,2025-05-21 18:33:56.785,21‏/5‏/2025 9:33:56 م,,,,,,,player_data (25) (1).json
+direction_change,2025-05-21 18:34:00.928,,up,,,,,,player_data (25) (1).json
+game_over,2025-05-21 18:34:01.386,,,,,collision,4.602,0.0,player_data (25) (1).json
+game_start,2025-05-21 18:33:26.008,21‏/5‏/2025 9:33:26 م,,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:30.125,,down,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:30.486,,right,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:31.515,,down,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:33.212,,left,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:34.278,,down,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:34.629,,right,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:35.634,,up,,,,,,player_data (24) (1).json
+food_eaten,2025-05-21 18:33:36.013,,,"{'x': 1, 'y': 8}",1.0,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:37.107,,left,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:38.315,,up,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:39.616,,right,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:39.802,,down,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:40.614,,left,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:40.978,,up,,,,,,player_data (24) (1).json
+food_eaten,2025-05-21 18:33:41.311,,,"{'x': 17, 'y': 4}",2.0,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:41.888,,right,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:43.467,,down,,,,,,player_data (24) (1).json
+food_eaten,2025-05-21 18:33:43.725,,,"{'x': 29, 'y': 11}",3.0,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:44.492,,right,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:45.701,,up,,,,,,player_data (24) (1).json
+food_eaten,2025-05-21 18:33:45.812,,,"{'x': 1, 'y': 12}",4.0,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:46.497,,left,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:49.110,,down,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:50.076,,left,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:50.197,,up,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:51.222,,up,,,,,,player_data (24) (1).json
+direction_change,2025-05-21 18:33:51.235,,left,,,,,,player_data (24) (1).json
+game_over,2025-05-21 18:33:51.412,,,,,collision,25.404,4.0,player_data (24) (1).json
+game_start,2025-05-21 18:33:04.591,21‏/5‏/2025 9:33:04 م,,,,,,,player_data (23) (1).json
+direction_change,2025-05-21 18:33:14.165,,right,,,,,,player_data (23) (1).json
+food_eaten,2025-05-21 18:33:15.400,,,"{'x': 22, 'y': 14}",1.0,,,,player_data (23) (1).json
+direction_change,2025-05-21 18:33:15.600,,down,,,,,,player_data (23) (1).json
+direction_change,2025-05-21 18:33:16.337,,right,,,,,,player_data (23) (1).json
+direction_change,2025-05-21 18:33:17.021,,down,,,,,,player_data (23) (1).json
+direction_change,2025-05-21 18:33:17.679,,left,,,,,,player_data (23) (1).json
+direction_change,2025-05-21 18:33:18.116,,up,,,,,,player_data (23) (1).json
+direction_change,2025-05-21 18:33:18.683,,right,,,,,,player_data (23) (1).json
+food_eaten,2025-05-21 18:33:18.797,,,"{'x': 23, 'y': 1}",2.0,,,,player_data (23) (1).json
+direction_change,2025-05-21 18:33:19.121,,down,,,,,,player_data (23) (1).json
+direction_change,2025-05-21 18:33:20.670,,down,,,,,,player_data (23) (1).json
+game_over,2025-05-21 18:33:20.806,,,,,collision,16.218,2.0,player_data (23) (1).json
+game_start,2025-05-21 18:32:55.678,21‏/5‏/2025 9:32:55 م,,,,,,,player_data (22) (1).json
+direction_change,2025-05-21 18:32:58.893,,up,,,,,,player_data (22) (1).json
+game_over,2025-05-21 18:32:59.384,,,,,collision,3.706,0.0,player_data (22) (1).json
+game_start,2025-05-21 18:32:20.102,21‏/5‏/2025 9:32:20 م,,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:20.745,,right,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:22.249,,down,,,,,,player_data (21) (1).json
+food_eaten,2025-05-21 18:32:22.903,,,"{'x': 24, 'y': 19}",1.0,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:23.210,,left,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:24.202,,down,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:24.591,,right,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:26.014,,down,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:26.466,,left,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:26.880,,up,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:27.413,,right,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:27.968,,down,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:28.854,,left,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:29.312,,up,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:29.915,,right,,,,,,player_data (21) (1).json
+food_eaten,2025-05-21 18:32:30.312,,,"{'x': 18, 'y': 25}",2.0,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:30.577,,down,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:31.074,,left,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:32.160,,down,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:32.734,,right,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:33.009,,up,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:33.640,,left,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:34.458,,down,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:34.967,,right,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:35.757,,up,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:36.758,,left,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:37.339,,down,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:37.958,,right,,,,,,player_data (21) (1).json
+food_eaten,2025-05-21 18:32:38.510,,,"{'x': 21, 'y': 10}",3.0,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:38.992,,up,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:40.345,,left,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:41.189,,up,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:41.652,,right,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:42.231,,down,,,,,,player_data (21) (1).json
+food_eaten,2025-05-21 18:32:42.709,,,"{'x': 11, 'y': 21}",4.0,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:43.757,,left,,,,,,player_data (21) (1).json
+food_eaten,2025-05-21 18:32:44.815,,,"{'x': 23, 'y': 8}",5.0,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:45.227,,up,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:46.498,,right,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:48.219,,up,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:48.791,,left,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:49.050,,down,,,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:49.485,,right,,,,,,player_data (21) (1).json
+food_eaten,2025-05-21 18:32:49.718,,,"{'x': 27, 'y': 20}",6.0,,,,player_data (21) (1).json
+direction_change,2025-05-21 18:32:50.406,,right,,,,,,player_data (21) (1).json
+game_over,2025-05-21 18:32:50.406,,,,,collision,30.305,6.0,player_data (21) (1).json
+game_start,2025-05-21 18:31:49.308,21‏/5‏/2025 9:31:49 م,,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:31:54.010,,right,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:31:55.993,,down,,,,,,player_data (20) (1).json
+food_eaten,2025-05-21 18:31:56.323,,,"{'x': 26, 'y': 12}",1.0,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:31:57.115,,right,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:31:57.595,,up,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:31:57.911,,left,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:31:58.422,,down,,,,,,player_data (20) (1).json
+food_eaten,2025-05-21 18:31:58.422,,,"{'x': 14, 'y': 19}",2.0,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:31:59.296,,left,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:32:00.351,,up,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:32:01.069,,left,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:32:01.335,,down,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:32:01.862,,right,,,,,,player_data (20) (1).json
+food_eaten,2025-05-21 18:32:02.111,,,"{'x': 11, 'y': 19}",3.0,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:32:02.805,,down,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:32:03.128,,left,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:32:04.133,,up,,,,,,player_data (20) (1).json
+food_eaten,2025-05-21 18:32:04.622,,,"{'x': 18, 'y': 12}",4.0,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:32:05.162,,right,,,,,,player_data (20) (1).json
+direction_change,2025-05-21 18:32:05.863,,up,,,,,,player_data (20) (1).json
+food_eaten,2025-05-21 18:32:06.023,,,"{'x': 25, 'y': 2}",5.0,,,,player_data (20) (1).json
+game_over,2025-05-21 18:32:07.115,,,,,collision,17.809,5.0,player_data (20) (1).json
+game_start,2025-05-21 18:30:27.535,21‏/5‏/2025 9:30:27 م,,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:27.568,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:28.459,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:29.369,,down,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:30:29.747,,,"{'x': 8, 'y': 8}",1.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:30.318,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:30.924,,up,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:30:32.447,,,"{'x': 5, 'y': 26}",2.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:32.455,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:33.194,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:35.096,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:36.099,,up,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:30:36.136,,,"{'x': 21, 'y': 30}",3.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:36.856,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:38.471,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:39.678,,left,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:30:39.749,,,"{'x': 10, 'y': 17}",4.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:40.594,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:41.751,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:42.374,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:42.772,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:43.386,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:43.907,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:44.251,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:44.807,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:46.008,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:46.336,,left,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:30:47.338,,,"{'x': 5, 'y': 21}",5.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:47.483,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:48.455,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:49.040,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:50.441,,right,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:30:50.842,,,"{'x': 9, 'y': 24}",6.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:51.791,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:52.235,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:52.700,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:53.696,,up,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:30:53.943,,,"{'x': 2, 'y': 12}",7.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:55.429,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:56.106,,down,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:30:56.436,,,"{'x': 16, 'y': 27}",8.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:57.208,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:58.613,,down,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:30:59.335,,,"{'x': 30, 'y': 2}",9.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:30:59.392,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:00.117,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:02.654,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:04.780,,down,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:31:04.846,,,"{'x': 4, 'y': 22}",10.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:06.697,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:09.631,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:10.271,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:10.566,,up,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:31:11.237,,,"{'x': 29, 'y': 8}",11.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:11.870,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:14.414,,up,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:31:15.138,,,"{'x': 16, 'y': 10}",12.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:15.496,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:16.880,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:17.672,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:18.162,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:18.493,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:19.194,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:19.527,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:19.945,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:20.285,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:21.530,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:21.986,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:23.189,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:23.961,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:24.350,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:25.000,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:25.573,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:26.000,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:26.591,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:27.083,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:27.563,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:27.951,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:28.270,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:28.670,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:29.283,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:29.509,,left,,,,,,player_data (19) (1).json
+food_eaten,2025-05-21 18:31:30.042,,,"{'x': 18, 'y': 19}",13.0,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:30.956,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:31.369,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:32.538,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:33.174,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:33.498,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:34.313,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:34.682,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:35.441,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:35.968,,up,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:36.474,,left,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:37.079,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:37.388,,right,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:38.130,,down,,,,,,player_data (19) (1).json
+direction_change,2025-05-21 18:31:38.654,,right,,,,,,player_data (19) (1).json
+game_over,2025-05-21 18:31:39.436,,,,,collision,71.902,13.0,player_data (19) (1).json
+game_start,2025-05-21 18:30:20.963,21‏/5‏/2025 9:30:20 م,,,,,,,player_data (18) (1).json
+direction_change,2025-05-21 18:30:21.596,,up,,,,,,player_data (18) (1).json
+game_over,2025-05-21 18:30:22.073,,,,,collision,1.111,0.0,player_data (18) (1).json
+game_start,2025-05-21 18:30:02.715,21‏/5‏/2025 9:30:02 م,,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:02.741,,right,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:03.627,,up,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:03.936,,left,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:04.192,,down,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:04.854,,left,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:05.100,,up,,,,,,player_data (17) (1).json
+food_eaten,2025-05-21 18:30:05.724,,,"{'x': 5, 'y': 9}",1.0,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:05.737,,right,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:06.529,,down,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:07.516,,left,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:08.705,,up,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:09.426,,left,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:09.649,,down,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:10.330,,right,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:11.589,,up,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:11.950,,left,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:12.922,,down,,,,,,player_data (17) (1).json
+direction_change,2025-05-21 18:30:14.312,,left,,,,,,player_data (17) (1).json
+game_over,2025-05-21 18:30:14.929,,,,,collision,12.215,1.0,player_data (17) (1).json
+game_start,2025-05-21 18:29:50.765,21‏/5‏/2025 9:29:50 م,,,,,,,player_data (16) (1).json
+direction_change,2025-05-21 18:29:52.846,,right,,,,,,player_data (16) (1).json
+direction_change,2025-05-21 18:29:54.719,,down,,,,,,player_data (16) (1).json
+direction_change,2025-05-21 18:29:55.571,,left,,,,,,player_data (16) (1).json
+food_eaten,2025-05-21 18:29:55.676,,,"{'x': 28, 'y': 13}",1.0,,,,player_data (16) (1).json
+game_over,2025-05-21 18:29:57.872,,,,,collision,7.107,1.0,player_data (16) (1).json
+game_start,2025-05-21 18:29:13.980,21‏/5‏/2025 9:29:13 م,,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:14.658,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:15.151,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:16.715,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:17.288,,up,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:17.521,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:17.880,,down,,,,,,player_data (15) (1).json
+food_eaten,2025-05-21 18:29:17.986,,,"{'x': 7, 'y': 9}",1.0,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:18.522,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:18.905,,up,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:20.776,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:21.308,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:21.778,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:22.012,,up,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:22.593,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:22.907,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:23.204,,right,,,,,,player_data (15) (1).json
+food_eaten,2025-05-21 18:29:23.489,,,"{'x': 6, 'y': 18}",2.0,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:24.193,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:25.186,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:25.988,,up,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:26.727,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:27.009,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:27.834,,right,,,,,,player_data (15) (1).json
+food_eaten,2025-05-21 18:29:28.082,,,"{'x': 10, 'y': 25}",3.0,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:28.783,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:29.366,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:29.993,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:30.427,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:30.946,,up,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:31.341,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:31.884,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:32.255,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:32.707,,up,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:33.240,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:33.774,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:34.223,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:34.766,,up,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:35.833,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:36.287,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:37.198,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:38.410,,up,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:38.751,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:39.672,,down,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:40.337,,left,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:41.312,,up,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:41.923,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:43.210,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:43.987,,right,,,,,,player_data (15) (1).json
+direction_change,2025-05-21 18:29:44.711,,right,,,,,,player_data (15) (1).json
+game_over,2025-05-21 18:29:44.882,,,,,collision,30.903,3.0,player_data (15) (1).json
+game_start,2025-05-21 18:28:50.669,21‏/5‏/2025 9:28:50 م,,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:28:54.273,,right,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:28:56.091,,down,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:28:56.965,,left,,,,,,player_data (14) (1).json
+food_eaten,2025-05-21 18:28:57.074,,,"{'x': 20, 'y': 11}",1.0,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:28:57.711,,up,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:28:58.332,,right,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:28:58.893,,down,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:28:59.518,,left,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:28:59.914,,up,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:29:00.230,,right,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:29:00.760,,down,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:29:02.080,,left,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:29:02.381,,up,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:29:03.772,,right,,,,,,player_data (14) (1).json
+food_eaten,2025-05-21 18:29:03.884,,,"{'x': 1, 'y': 17}",2.0,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:29:04.366,,down,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:29:04.790,,left,,,,,,player_data (14) (1).json
+direction_change,2025-05-21 18:29:07.039,,left,,,,,,player_data (14) (1).json
+game_over,2025-05-21 18:29:07.270,,,,,collision,16.602,2.0,player_data (14) (1).json
+game_start,2025-05-21 18:27:57.804,21‏/5‏/2025 9:27:57 م,,,,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:30.158,,right,,,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:30.950,,down,,,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:33.093,,left,,,,,,player_data (13) (1).json
+food_eaten,2025-05-21 18:28:33.709,,,"{'x': 9, 'y': 16}",1.0,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:33.887,,up,,,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:34.903,,right,,,,,,player_data (13) (1).json
+food_eaten,2025-05-21 18:28:35.316,,,"{'x': 4, 'y': 24}",2.0,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:35.743,,down,,,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:36.605,,left,,,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:37.594,,up,,,,,,player_data (13) (1).json
+food_eaten,2025-05-21 18:28:37.606,,,"{'x': 15, 'y': 19}",3.0,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:38.320,,right,,,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:39.503,,down,,,,,,player_data (13) (1).json
+food_eaten,2025-05-21 18:28:39.808,,,"{'x': 4, 'y': 10}",4.0,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:40.307,,left,,,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:41.232,,up,,,,,,player_data (13) (1).json
+direction_change,2025-05-21 18:28:42.815,,left,,,,,,player_data (13) (1).json
+food_eaten,2025-05-21 18:28:43.005,,,"{'x': 13, 'y': 24}",5.0,,,,player_data (13) (1).json
+game_over,2025-05-21 18:28:43.316,,,,,collision,45.513,5.0,player_data (13) (1).json
+game_start,2025-05-21 18:27:19.980,21‏/5‏/2025 9:27:19 م,,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:20.866,,down,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:21.402,,right,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:22.023,,down,,,,,,player_data (12) (1).json
+food_eaten,2025-05-21 18:27:22.482,,,"{'x': 19, 'y': 15}",1.0,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:23.774,,right,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:23.836,,up,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:24.073,,right,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:25.074,,up,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:26.076,,left,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:26.630,,up,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:27.299,,right,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:27.652,,down,,,,,,player_data (12) (1).json
+food_eaten,2025-05-21 18:27:28.295,,,"{'x': 28, 'y': 21}",2.0,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:28.647,,left,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:29.473,,up,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:29.900,,right,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:31.782,,down,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:32.470,,left,,,,,,player_data (12) (1).json
+food_eaten,2025-05-21 18:27:32.582,,,"{'x': 25, 'y': 29}",3.0,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:33.820,,down,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:34.287,,right,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:35.388,,down,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:35.646,,left,,,,,,player_data (12) (1).json
+food_eaten,2025-05-21 18:27:35.683,,,"{'x': 9, 'y': 15}",4.0,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:37.027,,up,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:38.395,,left,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:39.023,,up,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:39.211,,right,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:39.617,,down,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:40.246,,right,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:40.367,,up,,,,,,player_data (12) (1).json
+food_eaten,2025-05-21 18:27:40.890,,,"{'x': 5, 'y': 4}",5.0,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:41.859,,left,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:42.397,,up,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:42.642,,right,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:42.944,,down,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:43.850,,left,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:44.127,,up,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:44.924,,right,,,,,,player_data (12) (1).json
+food_eaten,2025-05-21 18:27:45.193,,,"{'x': 22, 'y': 30}",6.0,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:45.735,,down,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:47.998,,right,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:49.452,,down,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:49.644,,left,,,,,,player_data (12) (1).json
+direction_change,2025-05-21 18:27:50.806,,down,,,,,,player_data (12) (1).json
+game_over,2025-05-21 18:27:50.985,,,,,collision,31.005,6.0,player_data (12) (1).json
+game_start,2025-05-21 18:27:13.789,21‏/5‏/2025 9:27:13 م,,,,,,,player_data (11) (1).json
+direction_change,2025-05-21 18:27:14.686,,up,,,,,,player_data (11) (1).json
+game_over,2025-05-21 18:27:15.096,,,,,collision,1.308,0.0,player_data (11) (1).json
+game_start,2025-05-21 18:26:53.030,21‏/5‏/2025 9:26:53 م,,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:26:54.365,,up,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:26:54.628,,right,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:26:55.403,,up,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:26:55.599,,left,,,,,,player_data (10) (1).json
+food_eaten,2025-05-21 18:26:56.043,,,"{'x': 20, 'y': 4}",1.0,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:26:56.310,,down,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:26:56.879,,right,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:26:58.303,,up,,,,,,player_data (10) (1).json
+food_eaten,2025-05-21 18:26:58.638,,,"{'x': 16, 'y': 30}",2.0,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:26:58.734,,left,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:26:59.324,,down,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:27:01.949,,right,,,,,,player_data (10) (1).json
+food_eaten,2025-05-21 18:27:02.238,,,"{'x': 17, 'y': 13}",3.0,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:27:02.877,,up,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:27:04.500,,left,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:27:05.080,,up,,,,,,player_data (10) (1).json
+food_eaten,2025-05-21 18:27:05.235,,,"{'x': 30, 'y': 9}",4.0,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:27:05.700,,right,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:27:06.883,,down,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:27:07.778,,right,,,,,,player_data (10) (1).json
+direction_change,2025-05-21 18:27:07.787,,up,,,,,,player_data (10) (1).json
+game_over,2025-05-21 18:27:07.836,,,,,collision,14.806000000000001,4.0,player_data (10) (1).json
+game_start,2025-05-21 18:26:46.586,21‏/5‏/2025 9:26:46 م,,,,,,,player_data (9) (1).json
+direction_change,2025-05-21 18:26:47.733,,left,,,,,,player_data (9) (1).json
+game_over,2025-05-21 18:26:48.192,,,,,collision,1.607,0.0,player_data (9) (1).json
+game_start,2025-05-21 18:26:38.247,21‏/5‏/2025 9:26:38 م,,,,,,,player_data (8) (1).json
+direction_change,2025-05-21 18:26:39.846,,up,,,,,,player_data (8) (1).json
+game_over,2025-05-21 18:26:40.253,,,,,collision,2.006,0.0,player_data (8) (1).json
+game_start,2025-05-21 18:26:21.213,21‏/5‏/2025 9:26:21 م,,,,,,,player_data (7) (1).json
+direction_change,2025-05-21 18:26:22.257,,up,,,,,,player_data (7) (1).json
+game_over,2025-05-21 18:26:22.723,,,,,collision,1.513,0.0,player_data (7) (1).json
+game_start,2025-05-21 18:26:11.280,21‏/5‏/2025 9:26:11 م,,,,,,,player_data (6) (1).json
+direction_change,2025-05-21 18:26:11.848,,right,,,,,,player_data (6) (1).json
+direction_change,2025-05-21 18:26:12.606,,down,,,,,,player_data (6) (1).json
+direction_change,2025-05-21 18:26:14.916,,left,,,,,,player_data (6) (1).json
+direction_change,2025-05-21 18:26:16.059,,down,,,,,,player_data (6) (1).json
+game_over,2025-05-21 18:26:16.285,,,,,collision,5.006,0.0,player_data (6) (1).json
+game_start,2025-05-21 18:25:44.216,21‏/5‏/2025 9:25:44 م,,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:45.080,,right,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:46.332,,down,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:47.013,,left,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:47.292,,up,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:47.561,,right,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:47.562,,up,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:47.997,,right,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:48.424,,down,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:48.935,,left,,,,,,player_data (5) (1).json
+food_eaten,2025-05-21 18:25:49.228,,,"{'x': 15, 'y': 21}",1.0,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:49.433,,up,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:50.075,,right,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:50.441,,down,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:52.122,,left,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:52.894,,up,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:52.904,,right,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:53.712,,down,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:54.007,,left,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:54.204,,up,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:54.908,,left,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:55.235,,down,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:55.869,,right,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:56.229,,up,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:57.951,,left,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:25:58.504,,down,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:26:00.060,,right,,,,,,player_data (5) (1).json
+food_eaten,2025-05-21 18:26:00.530,,,"{'x': 4, 'y': 29}",2.0,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:26:01.069,,up,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:26:01.595,,left,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:26:03.197,,down,,,,,,player_data (5) (1).json
+direction_change,2025-05-21 18:26:04.421,,left,,,,,,player_data (5) (1).json
+game_over,2025-05-21 18:26:04.817,,,,,collision,20.602,2.0,player_data (5) (1).json
+game_start,2025-05-21 18:25:30.481,21‏/5‏/2025 9:25:30 م,,,,,,,player_data (4) (1).json
+direction_change,2025-05-21 18:25:30.633,,down,,,,,,player_data (4) (1).json
+direction_change,2025-05-21 18:25:31.495,,right,,,,,,player_data (4) (1).json
+direction_change,2025-05-21 18:25:32.657,,down,,,,,,player_data (4) (1).json
+direction_change,2025-05-21 18:25:34.181,,left,,,,,,player_data (4) (1).json
+direction_change,2025-05-21 18:25:35.002,,up,,,,,,player_data (4) (1).json
+direction_change,2025-05-21 18:25:36.314,,right,,,,,,player_data (4) (1).json
+direction_change,2025-05-21 18:25:37.186,,down,,,,,,player_data (4) (1).json
+direction_change,2025-05-21 18:25:38.484,,right,,,,,,player_data (4) (1).json
+direction_change,2025-05-21 18:25:39.087,,down,,,,,,player_data (4) (1).json
+game_over,2025-05-21 18:25:39.287,,,,,collision,8.807,0.0,player_data (4) (1).json
+game_start,2025-05-21 18:22:21.833,21‏/5‏/2025 9:22:21 م,,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:11.504,,right,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:13.524,,down,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:14.407,,left,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:14.814,,up,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:15.089,,right,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:15.305,,down,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:15.934,,right,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:15.985,,up,,,,,,player_data (3) (1).json
+food_eaten,2025-05-21 18:25:16.442,,,"{'x': 23, 'y': 29}",1.0,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:17.071,,left,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:17.389,,down,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:18.981,,right,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:19.300,,down,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:20.074,,left,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:20.771,,up,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:21.172,,up,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:22.318,,right,,,,,,player_data (3) (1).json
+direction_change,2025-05-21 18:25:22.885,,down,,,,,,player_data (3) (1).json
+food_eaten,2025-05-21 18:25:24.337,,,"{'x': 20, 'y': 13}",2.0,,,,player_data (3) (1).json
+game_over,2025-05-21 18:25:24.446,,,,,collision,182.613,2.0,player_data (3) (1).json
+game_start,2025-05-21 18:21:49.350,21‏/5‏/2025 9:21:49 م,,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:21:55.122,,right,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:21:56.143,,down,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:21:57.666,,left,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:21:58.067,,up,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:21:58.517,,right,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:21:58.761,,down,,,,,,player_data (2) (1).json
+food_eaten,2025-05-21 18:21:59.160,,,"{'x': 21, 'y': 1}",1.0,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:21:59.487,,right,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:22:00.068,,up,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:22:02.368,,right,,,,,,player_data (2) (1).json
+food_eaten,2025-05-21 18:22:02.556,,,"{'x': 25, 'y': 24}",2.0,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:22:03.097,,down,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:22:05.320,,left,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:22:05.896,,down,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:22:06.163,,right,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:22:06.652,,up,,,,,,player_data (2) (1).json
+food_eaten,2025-05-21 18:22:06.865,,,"{'x': 15, 'y': 6}",3.0,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:22:08.409,,left,,,,,,player_data (2) (1).json
+direction_change,2025-05-21 18:22:09.386,,up,,,,,,player_data (2) (1).json
+food_eaten,2025-05-21 18:22:09.657,,,"{'x': 26, 'y': 20}",4.0,,,,player_data (2) (1).json
+game_over,2025-05-21 18:22:10.152,,,,,collision,20.803,4.0,player_data (2) (1).json
+game_start,2025-05-21 18:21:24.285,21‏/5‏/2025 9:21:24 م,,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:26.752,,right,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:28.100,,down,,,,,,player_data (1) (1).json
+food_eaten,2025-05-21 18:21:28.895,,,"{'x': 7, 'y': 17}",1.0,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:29.110,,left,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:30.294,,down,,,,,,player_data (1) (1).json
+food_eaten,2025-05-21 18:21:30.390,,,"{'x': 4, 'y': 21}",2.0,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:30.618,,right,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:31.876,,down,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:32.186,,left,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:33.593,,up,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:34.486,,left,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:34.862,,down,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:35.674,,right,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:36.033,,up,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:37.049,,left,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:37.431,,down,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:38.428,,right,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:39.014,,up,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:39.588,,left,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:40.023,,down,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:40.480,,right,,,,,,player_data (1) (1).json
+food_eaten,2025-05-21 18:21:40.696,,,"{'x': 15, 'y': 28}",3.0,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:40.750,,up,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:41.477,,right,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:41.707,,down,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:42.610,,right,,,,,,player_data (1) (1).json
+direction_change,2025-05-21 18:21:43.270,,down,,,,,,player_data (1) (1).json
+game_over,2025-05-21 18:21:43.988,,,,,collision,19.704,3.0,player_data (1) (1).json
