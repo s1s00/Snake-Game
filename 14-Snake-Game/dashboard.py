@@ -1,18 +1,18 @@
 # dashboard.py
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 # تحميل البيانات
-df = pd.read_json("session_data.json")  # عدّل الاسم حسب ملفك
+df = pd.read_json("player_data.json")  # تأكد إن الملف موجود بنفس مجلد السكربت
 
 # ---------------------------
-# العنوان العام
 st.title("📊 لوحة تحكم تحليلات Snake Game")
 
 # ---------------------------
-# 1. حركات اللاعبين (x, y)
+# 1. حركة اللاعبين (x, y)
 st.header("🧭 حركة اللاعبين")
 fig1, ax1 = plt.subplots()
 for pid, group in df.groupby("player_id"):
@@ -37,8 +37,8 @@ df["hour"] = df["timestamp"].dt.hour
 st.line_chart(df["hour"].value_counts().sort_index())
 
 # ---------------------------
-# 4. Heatmap سلوك المستخدم
-st.header("🔥 الخريطة الحرارية لحركة اللاعبين")
+# 4. خريطة حرارية لحركة اللاعبين
+st.header("🔥 الخريطة الحرارية")
 heatmap_data = df.groupby(["y", "x"]).size().unstack(fill_value=0)
 fig2, ax2 = plt.subplots()
 sns.heatmap(heatmap_data, cmap="YlOrRd", ax=ax2)
